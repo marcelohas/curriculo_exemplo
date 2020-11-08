@@ -4,7 +4,7 @@
   margin:auto;
   position:relative;
 }
-#profilepic{
+.profilepic{
   width:150px;
   height:150px;
   float:left;
@@ -15,13 +15,13 @@
   margin-left:20px;
   filter:grayscale(100%);
 }
-#nome{
+.nome{
   float:left; 
   margin-top:60px;
   margin-left:30px;
   font-family:arial;
 }
-#nasc{
+.nasc{
   position:absolute;
   margin-top:100px;
   margin-left:205px;
@@ -72,10 +72,10 @@ img{
   body *{
     visibility:hidden;
   }
-  #estrutura, #estrutura *{
+  .estrutura, .estrutura *{
     visibility:visible;
   }
-  #estrutura{
+  .estrutura{
     position:fixed;
     top:0;
     left:0;
